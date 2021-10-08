@@ -15,5 +15,8 @@ node_modules
 # Local compiled code
 build
 
+# Test results
+coverage
+
 # Dev sandbox
 try
