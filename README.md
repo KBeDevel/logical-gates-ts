@@ -1,8 +1,8 @@
 # Logical Gates
 
-A simple (zero-depths) library to implements logic gates in JavaScript/TypeScript.
+A simple (zero-dependencies) library to implement logic gates in JavaScript/TypeScript.
 
-[![CircleCI](https://circleci.com/gh/KBeDevel/logical-gates-ts/tree/main.svg?style=svg&circle-token=4154e654baa7b0184b64e29a20857c0afd2d7b90)](https://circleci.com/gh/KBeDevel/logical-gates-ts/tree/main)
+[![CircleCI](https://circleci.com/gh/KBeDevel/logical-gates-ts/tree/main.svg?style=shield&circle-token=4154e654baa7b0184b64e29a20857c0afd2d7b90)](https://circleci.com/gh/KBeDevel/logical-gates-ts/tree/main) ![types](https://img.shields.io/npm/types/logical-gates-ts?style=flat-square) ![TypeScript version](https://img.shields.io/npm/dependency-version/logical-gates-ts/dev/typescript?style=flat-square) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kbedevel/logical-gates-ts?color=gray&style=flat-square)
 
 ## Installation
 

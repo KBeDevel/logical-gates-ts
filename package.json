@@ -5,6 +5,10 @@
     "name": "Benjamín Calisto",
     "email": "be.calisto@protonmail.com"
   },
+  "repository": {
+    "url": "https://github.com/KBeDevel/logical-gates-ts",
+    "type": "git"
+  },
   "license": "GPL-3.0",
   "version": "1.0.0",
   "scripts": {
