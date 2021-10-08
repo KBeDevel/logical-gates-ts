@@ -2,6 +2,8 @@
 
 A simple (zero-depths) library to implements logic gates in JavaScript/TypeScript.
 
+[![CircleCI](https://circleci.com/gh/KBeDevel/logical-gates-ts/tree/main.svg?style=svg&circle-token=4154e654baa7b0184b64e29a20857c0afd2d7b90)](https://circleci.com/gh/KBeDevel/logical-gates-ts/tree/main)
+
 ## Installation
 
 Using NPM:
