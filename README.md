@@ -1,29 +1,213 @@
 # Logical Gates
 
-A simple (zero-depths) library to try logical operators in JavaScript
+A simple (zero-depths) library to implements logic gates in JavaScript/TypeScript.
 
-## How to install
+## Installation
 
-```bash
-npm install logical-gates
+Using NPM:
+
+```zsh
+npm install logical-gates-ts
 ```
 
-```bash
-yarn add logical-gates
+Using [Yarn](https://yarnpkg.com/):
+
+```zsh
+yarn add logical-gates-ts
 ```
 
-## Gates Specs
+Using [pnpm](https://pnpm.io/):
 
-This section describe the mathematical/logical description and specs for each logical gate
+```zsh
+pnpm add logical-gates-ts
+```
+
+## How it works
+
+This section provide the mathematical/logical description scheme for each logic gate
 
 ### AND
 
+<table>
+  <tbody>
+    <tr>
+      <th colspan="2">INPUT</th>
+      <th>OUTPUT</th>
+    </tr>
+    <tr>
+      <td>0</td><td>0</td><td align="center">0</td>
+    </tr>
+    <tr>
+      <td>0</td><td>1</td><td align="center">0</td>
+    </tr>
+    <tr>
+      <td>1</td><td>0</td><td align="center">0</td>
+    </tr>
+    <tr>
+      <td>1</td><td>1</td><td align="center">1</td>
+    </tr>
+  </tbody>
+</table>
+
+Example:
+
+```typescript
+import { LogicalGates } from 'logical-gates-ts'
+
+LogicalGates.AND(true, false) // -> false
+```
+
 ### OR
+
+<table>
+  <tbody>
+    <tr>
+      <th colspan="2">INPUT</th>
+      <th>OUTPUT</th>
+    </tr>
+    <tr>
+      <td>0</td><td>0</td><td align="center">0</td>
+    </tr>
+    <tr>
+      <td>0</td><td>1</td><td align="center">1</td>
+    </tr>
+    <tr>
+      <td>1</td><td>0</td><td align="center">1</td>
+    </tr>
+    <tr>
+      <td>1</td><td>1</td><td align="center">1</td>
+    </tr>
+  </tbody>
+</table>
+
+Example:
+
+```typescript
+import { LogicalGates } from 'logical-gates-ts'
+
+LogicalGates.OR(true, false) // -> true
+```
 
 ### XOR
 
+<table>
+  <tbody>
+    <tr>
+      <th colspan="2">INPUT</th>
+      <th>OUTPUT</th>
+    </tr>
+    <tr>
+      <td>0</td><td>0</td><td align="center">0</td>
+    </tr>
+    <tr>
+      <td>0</td><td>1</td><td align="center">1</td>
+    </tr>
+    <tr>
+      <td>1</td><td>0</td><td align="center">1</td>
+    </tr>
+    <tr>
+      <td>1</td><td>1</td><td align="center">0</td>
+    </tr>
+  </tbody>
+</table>
+
+Example:
+
+```typescript
+import { LogicalGates } from 'logical-gates-ts'
+
+LogicalGates.XOR(true, false) // -> true
+```
+
 ### NAND
+
+<table>
+  <tbody>
+    <tr>
+      <th colspan="2">INPUT</th>
+      <th>OUTPUT</th>
+    </tr>
+    <tr>
+      <td>0</td><td>0</td><td align="center">1</td>
+    </tr>
+    <tr>
+      <td>0</td><td>1</td><td align="center">1</td>
+    </tr>
+    <tr>
+      <td>1</td><td>0</td><td align="center">1</td>
+    </tr>
+    <tr>
+      <td>1</td><td>1</td><td align="center">0</td>
+    </tr>
+  </tbody>
+</table>
+
+Example:
+
+```typescript
+import { LogicalGates } from 'logical-gates-ts'
+
+LogicalGates.NAND(true, false) // -> true
+```
 
 ### NOR
 
+<table>
+  <tbody>
+    <tr>
+      <th colspan="2">INPUT</th>
+      <th>OUTPUT</th>
+    </tr>
+    <tr>
+      <td>0</td><td>0</td><td align="center">1</td>
+    </tr>
+    <tr>
+      <td>0</td><td>1</td><td align="center">0</td>
+    </tr>
+    <tr>
+      <td>1</td><td>0</td><td align="center">0</td>
+    </tr>
+    <tr>
+      <td>1</td><td>1</td><td align="center">0</td>
+    </tr>
+  </tbody>
+</table>
+
+Example:
+
+```typescript
+import { LogicalGates } from 'logical-gates-ts'
+
+LogicalGates.NOR(true, false) // -> false
+```
+
 ### XNOR
+
+<table>
+  <tbody>
+    <tr>
+      <th colspan="2">INPUT</th>
+      <th>OUTPUT</th>
+    </tr>
+    <tr>
+      <td>0</td><td>0</td><td align="center">0</td>
+    </tr>
+    <tr>
+      <td>0</td><td>1</td><td align="center">1</td>
+    </tr>
+    <tr>
+      <td>1</td><td>0</td><td align="center">1</td>
+    </tr>
+    <tr>
+      <td>1</td><td>1</td><td align="center">0</td>
+    </tr>
+  </tbody>
+</table>
+
+Example:
+
+```typescript
+import { LogicalGates } from 'logical-gates-ts'
+
+LogicalGates.XNOR(true, false) // -> true
+```
