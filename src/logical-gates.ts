@@ -1,3 +1,3 @@
 import * as Gates from './gates'
 
-export const { ...gates } = Gates
+export const gates = { ...Gates }
