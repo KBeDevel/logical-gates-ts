@@ -17,6 +17,8 @@
   ],
   "rules": {},
   "ignorePatterns": [
-    "**/__tests__/**/*.test.ts"
+    "**/*.js",
+    "**/__tests__/**/*.test.ts",
+    "**/dist/**/*.d.ts"
   ]
 }

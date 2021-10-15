@@ -2,7 +2,7 @@
   "name": "logical-gates-ts",
   "description": "A simple (zero-depths) library to try logical operators",
   "author": {
-    "name": "Benjamín Calisto",
+    "name": "Benjamin Calisto",
     "email": "be.calisto@protonmail.com"
   },
   "repository": {
@@ -11,13 +11,22 @@
   },
   "license": "GPL-3.0",
   "version": "1.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
   "scripts": {
     "release": "standard-version",
     "test": "jest",
-    "build": "tsc"
+    "compile:pre": "node utils/pre-build.js",
+    "compile": "rollup -c",
+    "compile:post": "node utils/post-build.js",
+    "build": "concurrently \"yarn compile:pre\" \"yarn compile\" \"yarn compile:post\" --max-processes 1 --raw",
+    "prepublish": "yarn build"
   },
   "packageManager": "yarn@3.0.2",
-  "main": "dist/index.js",
   "keywords": [
     "logical-gates",
     "logical",
@@ -25,15 +34,21 @@
     "typescript"
   ],
   "devDependencies": {
+    "@types/concurrently": "^6",
     "@types/jest": "^27.0.2",
+    "@types/rimraf": "^3",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
+    "concurrently": "^6.3.0",
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "jest": "^27.2.5",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.58.0",
+    "rollup-plugin-typescript2": "^0.30.0",
     "standard-version": "^9.3.1",
     "ts-jest": "^27.0.6",
     "typescript": "^4.4.4"
