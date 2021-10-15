@@ -1,3 +1,3 @@
 import type { BooleanLike } from '../types'
 
-export const toBoolean = (objectToCast: any): BooleanLike => !!objectToCast
+export const toBoolean = (objectToCast: unknown): BooleanLike => !!objectToCast
