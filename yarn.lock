@@ -2522,9 +2522,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.0.1, eslint@npm:^8.0.1":
-  version: 8.0.1
-  resolution: "eslint@npm:8.0.1"
+"eslint@npm:8.1.0, eslint@npm:^8.1.0":
+  version: 8.1.0
+  resolution: "eslint@npm:8.1.0"
   dependencies:
     "@eslint/eslintrc": ^1.0.3
     "@humanwhocodes/config-array": ^0.6.0
@@ -2566,7 +2566,7 @@ __metadata:
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: 072dde3e188c1274fa92eaf72d233d77b9c6e87ed859dce071b49c243546959ff7aefdb4759abf09841b650ef9d9f013abaae720b0bd64e0e07700ccefaf1208
+  checksum: e0b0c4bddd8673f376730b5bc72876fd0298e0ed9e52fa0707e48854ab0cea6a6a1945dbe2a059db1c867aafba7979b9d770060696e3f0ffc9d4b635ca4bce49
   languageName: node
   linkType: hard
 
@@ -4473,14 +4473,14 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.1.0
     "@typescript-eslint/parser": ^5.1.0
     concurrently: ^6.3.0
-    eslint: ^8.0.1
+    eslint: ^8.1.0
     eslint-config-standard: ^16.0.3
     eslint-plugin-import: ^2.25.2
     eslint-plugin-node: ^11.1.0
     eslint-plugin-promise: ^5.1.1
     jest: ^27.3.1
     rimraf: ^3.0.2
-    rollup: ^2.58.0
+    rollup: ^2.58.2
     rollup-plugin-typescript2: ^0.30.0
     standard-version: ^9.3.2
     ts-jest: ^27.0.7
@@ -5531,9 +5531,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^2.58.0":
-  version: 2.58.0
-  resolution: "rollup@npm:2.58.0"
+"rollup@npm:^2.58.2":
+  version: 2.58.2
+  resolution: "rollup@npm:2.58.2"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -5541,7 +5541,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: a5e5642f2b1e239e3698eeee93b19d905e55e3012c63978cebc71e76c0a4eb2de5cff06a2a80d68bf87fe6869c57647cccc335daba280a5449a9214abdeca247
+  checksum: 50f0fb3219969c804a30c4dc527dadded82c8b739c097d72dc3978459715ae88696151d029bca4e649c05d25cec22f27d47334d8204b55bcd8b899f3998f4038
   languageName: node
   linkType: hard
 
