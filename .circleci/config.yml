@@ -22,7 +22,7 @@ jobs:
             - .yarn/unplugged
       - deploy:
           name: Run unit tests and export coverage
-          command: yarn test --coverage && bash <(curl -Ls https://coverage.codacy.com/get.sh) report -r ./coverage/clover.xml
+          command: yarn lint && yarn test --coverage && bash <(curl -Ls https://coverage.codacy.com/get.sh) report -r ./coverage/clover.xml
   compile:
     docker:
       - image: circleci/node:16
