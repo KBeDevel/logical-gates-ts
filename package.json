@@ -20,6 +20,9 @@
   "scripts": {
     "release": "standard-version",
     "test": "jest",
+    "lint:dry": "eslint src --ext .ts",
+    "lint:fix": "yarn lint:dry --fix",
+    "lint": "yarn lint:dry",
     "compile:pre": "node utils/pre-build.js",
     "compile": "rollup -c",
     "compile:post": "node utils/post-build.js",
