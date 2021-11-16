@@ -37,11 +37,11 @@
     "typescript"
   ],
   "devDependencies": {
-    "@types/concurrently": "^6.3.0",
+    "@types/concurrently": "^6.4.0",
     "@types/jest": "^27.0.2",
     "@types/rimraf": "^3.0.2",
-    "@typescript-eslint/eslint-plugin": "^5.3.1",
-    "@typescript-eslint/parser": "^5.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
     "concurrently": "^6.4.0",
     "eslint": "^8.2.0",
     "eslint-config-standard": "^16.0.3",
