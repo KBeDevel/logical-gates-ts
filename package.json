@@ -29,7 +29,7 @@
     "build": "concurrently \"yarn compile:pre\" \"yarn compile\" \"yarn compile:post\" --max-processes 1 --raw",
     "prepublish": "yarn build"
   },
-  "packageManager": "yarn@3.0.2",
+  "packageManager": "yarn@3.1.1",
   "keywords": [
     "logical-gates",
     "logical",
