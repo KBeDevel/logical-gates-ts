@@ -50,7 +50,7 @@
     "eslint-plugin-promise": "^5.1.1",
     "jest": "^27.3.1",
     "rimraf": "^3.0.2",
-    "rollup": "^2.60.1",
+    "rollup": "^2.60.2",
     "rollup-plugin-typescript2": "^0.31.1",
     "standard-version": "^9.3.2",
     "ts-jest": "^27.0.7",
