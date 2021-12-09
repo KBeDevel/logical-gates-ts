@@ -4543,7 +4543,7 @@ __metadata:
     eslint-plugin-promise: ^5.2.0
     jest: ^27.4.3
     rimraf: ^3.0.2
-    rollup: ^2.60.2
+    rollup: ^2.61.0
     rollup-plugin-typescript2: ^0.31.1
     standard-version: ^9.3.2
     ts-jest: ^27.1.1
@@ -5622,9 +5622,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^2.60.2":
-  version: 2.60.2
-  resolution: "rollup@npm:2.60.2"
+"rollup@npm:^2.61.0":
+  version: 2.61.0
+  resolution: "rollup@npm:2.61.0"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -5632,7 +5632,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: bcd41dfe8afb7e0d97ce2237752165bdda689bcce6321d96821d565de3e0c865a49b544923f315985be2bfde086f72b54aae4ae7c87f798b3cb9558a5bec4e65
+  checksum: 9a30043759c990503f870fa2591b428d8dc979a2c407c3f23a177fa8bef5e423f9a6adf707e0a92bdd67a3a1af28ff1e5fdf6176e1d03c513867608208165d87
   languageName: node
   linkType: hard
 
