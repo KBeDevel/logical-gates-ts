@@ -1767,9 +1767,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"concurrently@npm:^6.4.0":
-  version: 6.4.0
-  resolution: "concurrently@npm:6.4.0"
+"concurrently@npm:^6.5.1":
+  version: 6.5.1
+  resolution: "concurrently@npm:6.5.1"
   dependencies:
     chalk: ^4.1.0
     date-fns: ^2.16.1
@@ -1781,7 +1781,7 @@ __metadata:
     yargs: ^16.2.0
   bin:
     concurrently: bin/concurrently.js
-  checksum: 902864cc853176cac406246fa367a1b24ebfcbea9ba43c164f9cb4e2c9c1a5f9d8be05ce98fe7ef13329ffd5cc340a052007a9c870863e2068425d95b3bf89d7
+  checksum: 3f4d89b464fa5c9fb6f9489b46594c30ba54eff6ff10ab3cb5f30f64b74c83be664623a0f0cc731a3cb3f057a1f4a3292f7d3470c012a292c44aca31f214a3fa
   languageName: node
   linkType: hard
 
@@ -2574,9 +2574,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.4.1":
-  version: 8.4.1
-  resolution: "eslint@npm:8.4.1"
+"eslint@npm:^8.5.0":
+  version: 8.5.0
+  resolution: "eslint@npm:8.5.0"
   dependencies:
     "@eslint/eslintrc": ^1.0.5
     "@humanwhocodes/config-array": ^0.9.2
@@ -2618,7 +2618,7 @@ __metadata:
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: d962cd7cd0f68ddc2412f47154b8992ad3af987cf47fa6e60e51a2b7d32a91f934388f7d29e2c45b16b7ac69f0d220d0a483189ec6ba43a8a480110c34f158f9
+  checksum: c1a9e26070520a308cc30b62ba0d37d5b115ed23987a93219819537bdea9398e6ebe57c27d97be36ecc83b5162c72e82ecb0a9e5b44b7992980f9be90eb5c4b3
   languageName: node
   linkType: hard
 
@@ -4535,8 +4535,8 @@ __metadata:
     "@types/rimraf": ^3.0.2
     "@typescript-eslint/eslint-plugin": ^5.7.0
     "@typescript-eslint/parser": ^5.7.0
-    concurrently: ^6.4.0
-    eslint: ^8.4.1
+    concurrently: ^6.5.1
+    eslint: ^8.5.0
     eslint-config-standard: ^16.0.3
     eslint-plugin-import: ^2.25.3
     eslint-plugin-node: ^11.1.0
@@ -4546,7 +4546,7 @@ __metadata:
     rollup: ^2.61.1
     rollup-plugin-typescript2: ^0.31.1
     standard-version: ^9.3.2
-    ts-jest: ^27.1.1
+    ts-jest: ^27.1.2
     typescript: ^4.5.4
   languageName: unknown
   linkType: soft
@@ -6272,9 +6272,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:^27.1.1":
-  version: 27.1.1
-  resolution: "ts-jest@npm:27.1.1"
+"ts-jest@npm:^27.1.2":
+  version: 27.1.2
+  resolution: "ts-jest@npm:27.1.2"
   dependencies:
     bs-logger: 0.x
     fast-json-stable-stringify: 2.x
@@ -6302,7 +6302,7 @@ __metadata:
       optional: true
   bin:
     ts-jest: cli.js
-  checksum: 3aea68083399c49e9079dbd1583ee5cce7da9648a6cdaef96c2b5f2f85de375c186227724336f359ecd2bc7871bff0911667d1f4867e0e275417b3e4887841d9
+  checksum: 2e7275f8a3545ec1340b37c458ace9244b5903e86861eb108beffff97d433f296c1254f76a41b573b1fe6245110b21bb62150bb88d55159f1dc7a929886535cb
   languageName: node
   linkType: hard
 
